@@ -1,0 +1,76 @@
+
+#img{
+    border-radius: 100%; 
+    width: 100px;
+
+}
+
+.form{
+    display: flex; 
+    width: 300px;  
+    height: 450px;
+    margin: auto; 
+    margin-top: 150px;
+    padding: 30px; 
+    align-items: center; 
+    flex-direction: column ; 
+    background-color :#222222;   
+    border-radius: 20px;  
+   justify-content: center; 
+   place-items: center;  
+   
+}
+p{
+    color: aliceblue; 
+    font-family: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+} 
+#name{
+    font-size: large; 
+    font-stretch: wider; 
+    font-weight: bold;
+    padding: 1px;
+    margin: 10px;
+    margin-bottom: 2px;
+} 
+#yello{
+    color: greenyellow; 
+    margin: 0; 
+    font-size: small; 
+    font-weight: normal;
+} 
+#work{
+    font-size: smaller;   
+    font-weight: normal; 
+    margin-bottom: 10;
+} 
+.buttons{ 
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 30px; 
+    padding: 10px;  
+} 
+.b{
+    background-color: #555555; 
+    border-radius: 10px;   
+    width: 300px;
+    height: 35px;   
+    align-items: center; 
+
+    white-space: 0px; 
+    background-color: #555555;  
+    outline: none;  
+   transition: .5sec; 
+   font-size: small; 
+   font-weight: bold; 
+   -webkit-text-fill-color: whitesmoke;
+   transition: background-color 0.3s ease; 
+   transition: -webkit-text-fill-colo 0.3 ease;  
+
+
+}  
+.b:hover{
+   background-color: greenyellow; 
+   -webkit-text-fill-color: black;
+}
